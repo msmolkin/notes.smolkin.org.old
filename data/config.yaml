@@ -12,7 +12,7 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/msmolkin/notes.smolkin.org/hugo/content
+GitHubLink: https://github.com/msmolkin/notes.smolkin.org/tree/hugo/content
 search:
   enableSemanticSearch: false
 #   Operand closed their public access in mid-June
