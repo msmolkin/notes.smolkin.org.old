@@ -1,5 +1,5 @@
 ---
-title: "CJK + Latex Support (测试)"
+title: "CJK + Latex Support (are slugs based on title or filename)"
 ---
 
 ## Chinese, Japanese, Korean Support

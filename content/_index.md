@@ -19,8 +19,8 @@ The heart of this website lies in my notes. They are written in Markdown, a ligh
 
 The website is divided into various sections, each dedicated to a different topic. These sections house a collection of notes, articles, and resources, providing a comprehensive overview of each subject. 
 
-I encourage you to explore, learn, and share your thoughts. If you wish to connect, you can find my contact information in the 'Contact Me' section of [the main page](https://michael.smolkin.org/hire-me.html). I'm always open to questions, suggestions, or a simple hello.
+I encourage you to explore, learn, and share your thoughts. If you wish to connect, you can find my contact information in the ['Contact Me'](https://michael.smolkin.org/hire-me.html) section of the main page. I'm always open to questions, suggestions, or a simple hello.
 
 Thank you for visiting. I hope you find the content both useful and informative. Enjoy your exploration!
 
-Note to self: [[notes/callouts | Admonition-style callouts]]
+Note to self: [[notes/callouts |Admonition-style callouts]]

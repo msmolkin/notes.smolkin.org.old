@@ -24,14 +24,13 @@ page_title:
   "🪴 Michael's Musings"
 links:
   - link_name: Home
-  - link: https://michael.smolkin.org/
+    link: https://michael.smolkin.org/
   - link_name: Twitter
-  - link: https://twitter.com/MichaelSmolkin
+    link: https://twitter.com/MichaelSmolkin
   - link_name: GitHub
-  - link_name: GitHub
-  - link: https://github.com/msmolkin
-  - Secondary GitHub
+    link: https://github.com/msmolkin
+  - link_name: Secondary GitHub
   - https://github.com/msmolkin1
   - link_name: About
-  - link: https://michael.smolkin.org/
+    link: https://michael.smolkin.org/
 
