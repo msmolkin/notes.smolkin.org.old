@@ -1,5 +1,10 @@
 ---
-title: "CJK + Latex Support (are slugs based on title or filename)"
+title: "CJK + Latex Support 测试"
+created: 1970-07-25
+updated: 2023-07-26
+date: 1990-01-01T00:00:00+00:00
+lastmod: 1995-04-04T00:00:00+00:00
+slug: "hugo-supports-chinese-japanese-and-korean-characters-and-latex"
 ---
 
 ## Chinese, Japanese, Korean Support
