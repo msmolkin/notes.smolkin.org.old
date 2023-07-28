@@ -1,0 +1,1 @@
+X.com and X, the moonshot factory by Dr. Astro Teller, two possible inspirations for ~~Twitter~~ I mean X
