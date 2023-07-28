@@ -19,11 +19,11 @@ search:
 #   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 #   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Please remind me to update this description. Yes, you. Welcome to my website! Please bear with me as I gather more public data that I'm comfortable sharing with Anthropic. Stay tuned for updates and a comprehensive description (written by Claude) soon!
+  Hey, you! Please remind me to update this description. Yes, you. Welcome to my website! Please bear with me as I gather more public data that I'm comfortable sharing with Anthropic. Stay tuned for updates and a comprehensive description (written by Claude) soon!
 page_title:
-  "🪴 Michael's Musings"
+  "🧠 Michael's Musings"
 links:
-  - link_name: Twitter
+  - link_name: X
     link: https://twitter.com/MichaelSmolkin
   - link_name: GitHub
     link: https://github.com/msmolkin

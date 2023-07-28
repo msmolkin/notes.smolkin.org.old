@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.3
+title: Magical Musings
 enableToc: false
 ---
 
@@ -24,3 +24,6 @@ I encourage you to explore, learn, and share your thoughts. If you wish to conne
 Thank you for visiting. I hope you find the content both useful and informative. Enjoy your exploration!
 
 Note to self: [[notes/callouts |Admonition-style callouts]]
+
+## All Posts
+If you'd like to see all the posts in my #blog in a list, feel free to open [[notes/|all my notes]].
