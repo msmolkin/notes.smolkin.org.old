@@ -1,6 +1,6 @@
 ---
 title: Magical Musings
-enableToc: false
+enableToc: true
 ---
 
 # Welcome to My Blog

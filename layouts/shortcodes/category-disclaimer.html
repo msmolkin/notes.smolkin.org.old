@@ -1,0 +1,3 @@
+{{ with .Page.Params.category }}
+{{ with $.Site.GetPage "section" . }}{{ .Params.description }}{{ end }}
+{{ end }}
