@@ -1,3 +1,13 @@
+---
+title: "2023-07-26 GPT Conversation"
+tags:
+- blog
+---
+
+`ChatGPT export 2023-07-28-16-51-38/conversations.json`
+
+---
+
 "role": "user", "content": "write out the steps I need to take to generate a new IAM key, and use it to transcribe audio files that I have on my computer. I already have an S3 bucket."
 
 "role": "assistant", "content":
