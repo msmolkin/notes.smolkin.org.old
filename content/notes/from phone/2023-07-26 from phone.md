@@ -1,4 +1,11 @@
-Just got a voicemail, and I had a funny thought: I should make my voicemail message include pressing one. So if any telemarketers or spammers are calling me, they think that I've press one and that I am listening to them
+---
+title: "Automated telemarketing buster idea"
+tags:
+- blog
+- mobile
+---
+
+Just got a voicemail message, and I had a funny thought: I should make my voicemail message include pressing one. So if any telemarketers or spammers are calling me, they think that I've press one and that I am listening to them
 
 How to beat the machine:
 In my message, begin by saying “if you’re a person, please disregard the following two beeps”
@@ -10,3 +17,5 @@ This way, telemarketing machines will be connected to a live person, wasting the
 ---
 
 Only do this with phone numbers that are not in my contacts.
+
+(of course, the downside is that my phone number gets added to their "accepted out call" lists)
