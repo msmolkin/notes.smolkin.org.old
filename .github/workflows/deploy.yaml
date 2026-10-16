@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ${{ fromJSON(format(github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository && '"ubuntu-24.04"' || vars.STUDIO_CI_UBUNTU_20_04 || '["self-hosted","Linux","ARM64","studio-linux","studio-run-{0}"]', github.run_id)) }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -22,10 +22,19 @@ jobs:
           root: .
 
       - name: Setup Hugo
+        if: runner.os != 'Linux' || runner.arch != 'ARM64'
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.96.0'
           extended: true
+
+      - name: Setup pinned Hugo extended on Studio Linux ARM64
+        if: runner.os == 'Linux' && runner.arch == 'ARM64'
+        run: |
+          HUGO_DIR=/opt/studio-ci/tools/hugo/0.96.0-extended-linux-arm64
+          (cd "$HUGO_DIR" && sha256sum --strict --check SHA256SUMS)
+          "$HUGO_DIR/hugo" version | grep -E '^hugo v0[.]96[.]0(-[0-9a-fA-F]+)?[+]extended linux/arm64([[:space:]]|$)'
+          printf '%s\n' "$HUGO_DIR" >> "$GITHUB_PATH"
 
       - name: Build
         run: hugo --minify
